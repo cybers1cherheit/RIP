@@ -48,10 +48,9 @@ const Sidebar: React.FC = () => {
           <FaGripfire className="aspect-square text-2xl" />
         </div>
         <div>
-          <h2 className="-mb-[0.5px] text-sm font-semibold text-gray-600">
-            New Project
+          <h2 className="text-sm font-semibold text-gray-600">
+          Software Project
           </h2>
-          <p className="text-xs text-gray-500">Software Project</p>
         </div>
       </div>
       <NavList label={"PLANNING"} items={planningItems} />

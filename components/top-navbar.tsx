@@ -36,7 +36,7 @@ const TopNavbar: React.FC = () => {
           width={45}
           height={45}
         />
-        <span className="text-sm font-medium text-gray-600">Error Tracking System</span>
+        <span className="text-sm font-medium text-gray-600">ERS</span>
       </div>
       {user ? (
         <div className="flex items-center gap-x-2">

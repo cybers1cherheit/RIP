@@ -23,21 +23,7 @@ export const metadata: Metadata = {
     "Clerk",
     "TanStack",
   ],
-  authors: [
-    {
-      name: "Sebastian Fernandez",
-      url: "https://sebastianfdz.com",
-    },
-  ],
-  creator: "Sebastian Fernandez",
-  openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: siteConfig.url,
-    title: siteConfig.name,
-    description: siteConfig.description,
-    siteName: siteConfig.name,
-  },
+  
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
