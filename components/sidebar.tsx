@@ -51,7 +51,7 @@ const Sidebar: React.FC = () => {
           <h2 className="text-sm font-semibold text-gray-600">
           Software Project
           </h2>
-        </div>
+        </div> 
       </div>
       <NavList label={"PLANNING"} items={planningItems} />
     </div>
